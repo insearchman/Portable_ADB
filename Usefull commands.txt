@@ -1,0 +1,8 @@
+adb devices - показывает все подключённые девайсы
+
+Подключение к Unity по Wi-Fi в качестве тестового девайса:
+- комп и девайс должны быть поключены к одной Wi-fi
+- на мобиле установить из Play Market приложение Unity Remote. Запустить его.
+- adb connect "wi-fi ip on mobile"
+- adb tcpip 5555
+- В Unity: Edit > Project Settings > Editor > Unity Remote > Device = Any Android Device
